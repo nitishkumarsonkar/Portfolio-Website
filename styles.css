@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    /*background-color: yellow;*/
+    margin: 2.5rem;
+}
+
+.sidebar{
+    position: absolute;
+    background-color: rgb(182, 179, 179);
+    font-family: 'Ubuntu', sans-serif;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 20px;
+    font-size: 20px;
+
+}
+.sidebar nav li{
+    list-style: none;
+    padding: 20px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.sidebarGo{
+    transform: translate(-443px,0);
+    position: absolute;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    
+}
+.info{
+    /*background-color: rgb(128, 0, 111);*/
+    
+    width: 80vw;
+    height: 78vh ;
+    margin: 5rem 4rem;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{
+    font-size: 2rem;
+}
+.name{
+    font-size: 1.8rem;
+    font-family: 'Ubuntu', sans-serif; 
+}
+.about{
+    font-size: 1.75rem;
+}
+.moreabout{
+    margin-top: 1.75rem;
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif; 
+
+}
+.buttons{
+    margin-top: 30px;
+}
+.btn{
+    padding: 10px 14px;
+    background-color: dodgerblue;
+    border-radius: 20px;
+    color: white;
+    margin: 0 3px;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+.btn-sm {
+    font-size: 14px;
+    padding: 6px 15px;
+    margin: 15px 1px;
+}
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+.devpic img{
+    height: 65vh ;
+    padding-bottom: 10px;
+}
+.contactform{
+    font-family: 'Ubuntu', sans-serif; 
+    padding: 0 2rem;
+    padding-top: 2rem;
+    
+}
+.contactform h1{
+    font-family:'Source Code Pro', monospace;  
+    padding: 0.625rem;
+    font-size: 1.5rem;
+}
+.contactform form div{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    
+
+}
+.contactform form div input{
+    border-radius: 0.5rem;
+    padding: 0.25rem;
+    margin: 5px 0 0 0;
+
+}
+#emailHelp{
+    font-size: 10px;
+    color: midnightblue;
+    margin: 0 5px;
+    
+}
+
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 1.5rem;
+    margin: 1%;
+}
+.blogitem{
+    margin: 0.625rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.blogitem p{
+    font-family: 'Source Code Pro', monospace;
+}
+.blogcontain h1{
+    margin: 15px;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    left: 10px;
+    top:10px;
+}
+.ser_container{
+    /*background-color: yellow;*/
+    margin: 4rem;
+    
+}
+.link li{
+    list-style: none;
+    background-color: tomato;
+    padding: 0.5rem;
+}
+.link li a{
+    text-decoration: none;
+    color: black;
+    
+}
+@media (max-width: 60rem){
+    .devpic{
+        display: none;
+    }
+}
+
